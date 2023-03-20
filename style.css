@@ -65,7 +65,7 @@ button:hover {
     color: #ffffff;
 }
 
-.photo {
+.avatar {
     border-radius: 50%;
     background-image: url(img/photo.jpg);
     background-repeat: no-repeat;
