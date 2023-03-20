@@ -3,7 +3,7 @@ const studentName = document.getElementById('student-name');
 const themeToggler = document.getElementById('toggle');
 
 introduceButton.addEventListener('click', () => {
-    const name = prompt('Привет! Как тебя зовут?', 'Ольга!');
+    const name = prompt('Нажми ОК, чтобы моё имя отобразилось на страничке.', 'Ольга!');
     if (name) {
         studentName.textContent = name;
     }
